@@ -1,0 +1,69 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js build
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/karlo.lopez/google-cloud-sdk/bin:/Users/karlo.lopez/Library/Android/sdk/emulator:/Users/karlo.lopez/Library/Android/sdk/tools:/Users/karlo.lopez/Library/Android/sdk/tools/bin:/Users/karlo.lopez/Library/Android/sdk/platform-tools:/Users/karlo.lopez/Library/Android/sdk/emulator:/Users/karlo.lopez/Library/Android/sdk/tools:/Users/karlo.lopez/Library/Android/sdk/tools/bin:/Users/karlo.lopez/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/karlo.lopez/Documents/Workspaces/app-jona-y-karlo/webapp/package.json: Unexpected token } in JSON at position 404
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-redux-registration-login-example",
+    "version": "0.0.0",
+    "private": true,
+    "homepage": "/",
+    "dependencies": {
+      "crypto-js": "^4.0.0",
+      "history": "4.7.2",
+      "js-cookie": "^2.2.1",
+      "react": "16.1.1",
+      "react-dom": "16.1.1",
+      "react-redux": "5.0.7",
+      "react-router-dom": "4.2.2",
+      "redux": "4.0.0",
+      "redux-logger": "3.0.6",
+      "redux-thunk": "2.2.0",
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+      "react-scripts": "latest"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
