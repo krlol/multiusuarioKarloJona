@@ -11,8 +11,7 @@ const aesEncryptKey = "NUESTRA_CLAVE_DE_ENCRIPTACION";
 // connection configurations
 
 const mc = mysql.createConnection({
-    host: 'localhost',
-    port:8889,
+    host: '192.168.1.70',
     user: 'nodejs',
     password: 'nodejs',
     database: 'multiusuario'
